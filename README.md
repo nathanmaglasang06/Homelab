@@ -29,6 +29,10 @@ Newest first, grouped by the date each photo was taken.
 
 ## 2026-08-01
 
+<img src="Photos/P1010590.JPG" width="300" alt="P1010590.JPG">
+<img src="Photos/P1010589.JPG" width="300" alt="P1010589.JPG">
+<img src="Photos/P1010588.JPG" width="300" alt="P1010588.JPG">
+<img src="Photos/P1010587.JPG" width="300" alt="P1010587.JPG">
 <img src="Photos/P1010586.JPG" width="300" alt="P1010586.JPG">
 <img src="Photos/P1010585.JPG" width="300" alt="P1010585.JPG">
 <img src="Photos/P1010584.JPG" width="300" alt="P1010584.JPG">
