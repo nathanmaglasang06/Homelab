@@ -1,5 +1,25 @@
 # Homelab
-Some stuff around my home lab
+Photos of my progress within my homelab, I started with a nuc i5010500t wih 16gb ram around three years ago, it has grown a bit since then.
+Currently running a unifi stack for networking (10g) and nas (8tb R5), along with a k3s dev environment for app testing and a k8s talos cluster for my prod environment, planning to create a list of software I am running in the future but the basics are LGTP stack for obs and logging, Splunk for SIEM, Jellyfin & arr stack for media, syncthing for backups and a few applications I am developing with forgejo for CI/CD and repo management
+One Day I will rip my CD library and run navidrome, but for now yt-dlp is fine
+
+Currently Running a 19" rack for networking and NAS and a 10" rack for compute: 
+| 19" Rack                 | 10" Rack                                     |
+|--------------------------|----------------------------------------------|
+| UDM SE                   | Flex 2.5g 8 POE + (Planned)                  |
+| Pro XG 10 POE +++ Switch | TP-Link 5 Port Switch                        |
+| Patch Panel              | 4x Pi 5 8gb k3s Cluster (dev env)            |
+| UNAS Pro (3x4tb)         | Dashboard Screen (WIP)                       |
+| UPS 2U                   | Flex 2.5g 5                                  |
+|                          | HP ED (i5-9500t 16gb) Talos Node: G1         |
+|                          | HP ED (i5-9500t 16gb) Talos Node: G2         |
+|                          | HP ED (i5-9500t 16gb) Talos Node: G3         |
+|                          | HP ED (i5-9500t 16gb) Talos Node: G4         |
+|                          | Intel NUC i5-10500t 24gb Talos Control Plane |
+|                          | Pi 4 (Dashboard WIP) & Fan Control           |
+|                          | Patch Panels Covering PDU's                  |
+
+
 
 ## Progress Photos
 
