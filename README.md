@@ -1,10 +1,12 @@
 # Homelab
 
-Photos of my progress within my homelab. I started three years ago with a single NUC (i5-10500T, 16GB RAM) — it's grown a fair bit since then.
+Photos of my progress within my homelab. I started three years ago with a single NUC (i5-10500T, 16GB RAM) it's grown a fair bit since then.
 
-The stack has now been consolidated into a single 19" rack: UniFi networking (10G) and NAS (UNAS Pro, 8TB usable in RAID5) alongside a 5-node bare-metal Talos Kubernetes cluster (production). Cluster config is managed as code (`talos-cluster`, talhelper + sops/age) and every workload is reconciled via GitOps (`k8s-manifests-git`, Flux CD) — no manual `kubectl apply`, everything's a commit.
+The stack has now been consolidated into a single 19" rack: UniFi networking (10G) and NAS (UNAS Pro, 8TB usable in RAID5) alongside a 5-node bare-metal Talos Kubernetes cluster (production). Cluster config is managed as code (`talos-cluster`, talhelper + sops/age) and every workload is reconciled via GitOps (`k8s-manifests-git`, Flux CD) — no manual `kubectl apply`
 
-Software running: full media stack (Jellyfin + the `*arr` suite), Immich for photos, Navidrome for music, kube-prometheus-stack + Loki/Promtail for monitoring and logging, Bambuddy for 3D printer management, and a couple of in-development apps behind self-hosted Forgejo for CI/CD and repo management. One day I'll rip my CD library and lean fully on Navidrome — for now `yt-dlp` does the job.
+Software running: full media stack (Jellyfin + the `*arr` suite), Immich for photos, Navidrome for music, kube-prometheus-stack + Loki/Promtail for monitoring and logging, Bambuddy for 3D printer management, and a couple of in-development apps behind self-hosted Forgejo for CI/CD and repo management. One day I'll rip my CD library and lean fully on Navidrome for now `yt-dlp` does the job.
+
+Tragically had to return the raspbery pis to uni
 
 ## 19" Rack
 
